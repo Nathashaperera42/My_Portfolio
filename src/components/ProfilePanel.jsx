@@ -4,9 +4,8 @@ export default function ProfilePanel() {
   return (
     <section className="pf-reel" id="about">
       <div className="pf-reel-top">
-        <span className="pf-reel-kicker">01 — Profile</span>
         <div className="pf-chips">
-          {DATA.stats.slice(0, 3).map((s, i) => (
+          {DATA.stats.map((s, i) => (
             <div
               className={"pf-chip reveal" + (i === 1 ? " pf-chip-accent" : "")}
               style={{ transitionDelay: `${i * 90}ms` }}
@@ -20,19 +19,39 @@ export default function ProfilePanel() {
         <p className="pf-quote">“{DATA.quote}”</p>
       </div>
 
-      {PORTRAIT && (
-        <div className="pf-reel-portrait reveal" aria-hidden="true">
-          <img src={PORTRAIT} className="pf-slice s1" alt="" />
-          <img src={PORTRAIT} className="pf-slice s2" alt="" />
-          <img src={PORTRAIT} className="pf-slice s3" alt="" />
-        </div>
-      )}
+      <div className="pf-reel-main">
+        <span className="pf-reel-kicker">01 — Profile</span>
 
-      <div className="pf-reel-bottom">
-        <h2 className="pf-built reveal">
-          Built <span>by</span> {DATA.name}
-        </h2>
-        <p className="pf-built-sub reveal">{DATA.about}</p>
+        <div className="pf-reel-info">
+          <h2 className="pf-built reveal">{DATA.name}</h2>
+          <p className="pf-built-sub reveal">{DATA.about}</p>
+          <ul className="pf-facts reveal">
+            <li>
+              <span>Role</span>
+              {DATA.role}
+            </li>
+            <li>
+              <span>Based in</span>
+              {DATA.location}
+            </li>
+            <li>
+              <span>Education</span>
+              {DATA.education.degree} · {DATA.education.institution}
+            </li>
+            <li>
+              <span>Available</span>
+              {DATA.available ? `From ${DATA.availableFrom}` : "Not open to work"}
+            </li>
+          </ul>
+        </div>
+
+        {PORTRAIT && (
+          <div className="pf-reel-portrait reveal" aria-hidden="true">
+            <img src={PORTRAIT} className="pf-slice s1" alt="" />
+            <img src={PORTRAIT} className="pf-slice s2" alt="" />
+            <img src={PORTRAIT} className="pf-slice s3" alt="" />
+          </div>
+        )}
       </div>
     </section>
   );

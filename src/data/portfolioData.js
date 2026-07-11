@@ -17,7 +17,7 @@ export const cldVideo = (publicId, opts = "f_auto,q_auto") =>
 
 // 🖼️  Paste a link to your photo here (ideally background-removed, PNG/WEBP),
 // or a base64 data URL. Leave "" and the hero still looks intentional (name + disc).
-export const PORTRAIT = "";
+export const PORTRAIT = "https://res.cloudinary.com/dsypqpuci/image/upload/e_background_removal/v1783762466/grok-image-aae2ea17-c6e2-4083-9271-e9325f1c8498_kmdcsz.png";
 
 export const DATA = {
   name: "Nathasha Perera",
@@ -34,14 +34,19 @@ export const DATA = {
   tagline:
     "I build web and mobile applications end-to-end — from REST APIs and databases to responsive interfaces — with React, Node.js, Spring Boot and Flutter.",
   email: "shashininathasha42@gmail.com",
-  resumeUrl: "Nathasha_Perera_CV.pdf", // lives in /public, so it deploys with the site
+  resumeUrl: "/Nathasha_Perera_CV.pdf", // lives in /public, so it deploys with the site
   socials: {
-    github: "https://github.com/Nathashaperera",
-    linkedin: "https://www.linkedin.com/in/nathashaperera",
+    github: "https://github.com/Nathashaperera42",
+    linkedin: "https://www.linkedin.com/in/nathasha-perera-959024300/",
   },
 
   about:
     "I'm a Software Engineering undergraduate (BSc Hons, Kingston University via ESOFT) who loves turning ideas into working products. My work spans full-stack web apps with the MERN stack and Spring Boot, and cross-platform mobile apps in Flutter and Kotlin. Alongside my studies I work as a Team Lead at FluentMe and take on freelance builds, so I'm used to shipping under real deadlines, communicating clearly, and owning a project from first commit to delivery.",
+
+  education: {
+    degree: "BSc (Hons) Software Engineering",
+    institution: "Kingston University, via ESOFT",
+  },
 
   stats: [
     { value: "10+", label: "Projects built" },
