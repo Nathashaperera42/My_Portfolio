@@ -74,7 +74,7 @@ export const DATA = {
       tags: ["React", "Node.js", "Spring Boot", "MongoDB", "REST"],
       video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783767970/video_m8iih6.mp4", 
       accent: ["#FF2E4D", "#7A0E20"],
-      live: "#",
+      live: "https://waste2-taste-mu.vercel.app",
       code: "https://github.com/Nathashaperera42/Waste2Taste.git",
     },
     {
