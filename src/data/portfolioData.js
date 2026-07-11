@@ -134,7 +134,7 @@ export const DATA = {
       tags: ["Flutter", "Node.js", "MongoDB"],
       video: "",
       accent: ["#8B5CF6", "#2E1065"],
-      live: "https://cambridgecollege.vercel.app",
+      live: "https://cambridecollege.vercel.app",
       code: "https://github.com/Nathashaperera",
     },
   ],
