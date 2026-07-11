@@ -108,7 +108,7 @@ export const DATA = {
       blurb:
         "A mobile app that helps users track daily activities and build healthier habits, with a clean, responsive UI following modern mobile practices.",
       tags: ["Flutter", "Dart", "MongoDB"],
-      video: "",
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783805694/video_1_shqfe3.mp4",
       accent: ["#E8944A", "#5A3410"],
       live: "#",
       code: "https://github.com/Nathashaperera",
@@ -120,7 +120,7 @@ export const DATA = {
       blurb:
         "A cross-platform weather app delivering real-time forecasts, using Provider state management for efficient UI updates and a responsive Android-optimized layout.",
       tags: ["Flutter", "Dart", "Weather API"],
-      video: "",
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783806135/video_2_x8p75h.mp4",
       accent: ["#4FB6A4", "#0E3B34"],
       live: "#",
       code: "https://github.com/Nathashaperera",
