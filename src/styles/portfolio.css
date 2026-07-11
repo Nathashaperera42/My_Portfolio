@@ -213,6 +213,26 @@
   color:var(--text); transition:color .2s;}
 .pf-project-links a:hover{color:var(--accent);}
 
+/* ---------- DESIGNS (Figma) ---------- */
+.pf-designs-block{margin-top:clamp(46px,7vw,84px);}
+.pf-designs-h{font-family:var(--mono); font-size:12px; letter-spacing:2px; text-transform:uppercase;
+  color:var(--muted); margin-bottom:20px;}
+.pf-designs{display:grid; grid-template-columns:1fr 1fr 1fr; gap:clamp(18px,3vw,28px);}
+.pf-design{display:block; background:var(--surface); border:1px solid var(--line); border-radius:18px;
+  overflow:hidden; transition:border-color .3s, transform .3s;}
+.pf-design:hover{border-color:#34343f; transform:translateY(-5px);}
+.pf-design-imgwrap{position:relative; aspect-ratio:4/3; background:#0e0e11; overflow:hidden;}
+.pf-design-imgwrap img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
+.pf-design-placeholder{position:absolute; inset:0; display:grid; place-items:center; color:var(--muted);}
+.pf-design-overlay{position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:flex-start;
+  gap:6px; padding:14px; font-family:var(--mono); font-size:12px; letter-spacing:1px; text-transform:uppercase;
+  color:#fff; background:linear-gradient(0deg, rgba(0,0,0,.72), transparent 55%);
+  opacity:0; transition:opacity .25s;}
+.pf-design:hover .pf-design-overlay{opacity:1;}
+.pf-design-body{padding:18px 20px 22px;}
+.pf-design-body h3{font-size:16.5px; font-weight:700;}
+.pf-design-sub{display:block; color:var(--muted); font-size:13px; margin:4px 0 12px;}
+
 /* ---------- TIMELINE ---------- */
 .pf-timeline{display:flex; flex-direction:column;}
 .pf-exp{display:grid; grid-template-columns:auto 1fr; gap:clamp(18px,4vw,46px);
@@ -251,6 +271,7 @@
   .pf-logo-text{display:none;}
   .pf-stack-grid{grid-template-columns:1fr 1fr;}
   .pf-projects{grid-template-columns:1fr;}
+  .pf-designs{grid-template-columns:1fr 1fr;}
   .pf-portrait{height:min(48vh,400px);}
   .pf-disc{width:min(58vw,320px); height:min(58vw,320px);}
   .pf-bigname{font-size:clamp(2.4rem,15vw,6rem);}
@@ -267,6 +288,7 @@
 @media(max-width:520px){
   .pf-links a:not(.pf-nav-cta){display:none;}
   .pf-stack-grid{grid-template-columns:1fr;}
+  .pf-designs{grid-template-columns:1fr;}
   .pf-exp{grid-template-columns:1fr;}
   .pf-exp-num{display:none;}
   .pf-credits{flex-wrap:wrap; justify-content:center; gap:6px 14px;}

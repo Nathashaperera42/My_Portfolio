@@ -139,6 +139,19 @@ export const DATA = {
     },
   ],
 
+  // 🎨 Figma / UI design work. Paste a screenshot/export URL for `image`
+  // (e.g. drag the frame out of Figma onto Cloudinary, or export a PNG and
+  // host it anywhere) and your Figma "Share" link for `link`.
+  designs: [
+    {
+      title: "Design title",
+      subtitle: "Mobile App UI",
+      image: "",
+      link: "https://www.figma.com/",
+      tags: ["Figma", "UI/UX"],
+    },
+  ],
+
   experience: [
     {
       role: "Team Lead / Software Intern",

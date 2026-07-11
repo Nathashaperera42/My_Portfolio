@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight, Github, Figma } from "lucide-react";
 import { DATA } from "../data/portfolioData.js";
 import ProjectVideo from "./ProjectVideo.jsx";
 
@@ -42,6 +42,46 @@ export default function Work() {
           </article>
         ))}
       </div>
+
+      {DATA.designs?.length > 0 && (
+        <div className="pf-designs-block">
+          <h3 className="pf-designs-h">Design work (Figma)</h3>
+          <div className="pf-designs">
+            {DATA.designs.map((d, i) => (
+              <a
+                className="pf-design reveal"
+                style={{ transitionDelay: `${(i % 2) * 90}ms` }}
+                key={d.title}
+                href={d.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="pf-design-imgwrap">
+                  {d.image ? (
+                    <img src={d.image} alt={d.title} loading="lazy" />
+                  ) : (
+                    <div className="pf-design-placeholder" aria-hidden="true">
+                      <Figma size={26} />
+                    </div>
+                  )}
+                  <span className="pf-design-overlay">
+                    View in Figma <ArrowUpRight size={14} />
+                  </span>
+                </div>
+                <div className="pf-design-body">
+                  <h3>{d.title}</h3>
+                  <span className="pf-design-sub">{d.subtitle}</span>
+                  <div className="pf-tags">
+                    {d.tags.map((t) => (
+                      <span key={t}>{t}</span>
+                    ))}
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
