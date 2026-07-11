@@ -126,15 +126,15 @@ export const DATA = {
       code: "https://github.com/Nathashaperera",
     },
     {
-      title: "Student Net",
-      subtitle: "Student Management App",
-      year: "2024",
+      title: "Governess College Portal",
+      subtitle: "A one of my client project",
+      year: "2026",
       blurb:
-        "An Android app for student management with secure cloud data storage and an intuitive interface for efficient record handling.",
-      tags: ["Kotlin", "Firebase"],
+        "A web portal for Governess College, designed to streamline administrative tasks and enhance communication between staff and students.",
+      tags: ["Flutter", "Node.js", "MongoDB"],
       video: "",
       accent: ["#8B5CF6", "#2E1065"],
-      live: "#",
+      live: "https://cambridgecollege.vercel.app",
       code: "https://github.com/Nathashaperera",
     },
   ],
@@ -144,7 +144,7 @@ export const DATA = {
   // host it anywhere) and your Figma "Share" link for `link`.
   designs: [
     {
-      title: "Design title",
+      title: "HealthMate figma",
       subtitle: "Mobile App UI",
       image: "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
       link: "https://lnkd.in/gcvcd6WP",
