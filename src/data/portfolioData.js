@@ -87,18 +87,18 @@ export const DATA = {
       video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783804665/Smart_Uni_System_localhost_5173_-_Smart-Uni-Front-End_-_Visual_Studio_Code_2026-07-12_02-43-41_pmi4dq.mp4",
       accent: ["#3B82F6", "#0B2A57"],
       live: "#",
-      code: "https://github.com/esoft-batch05",
+      code: "https://github.com/Nathashaperera42/Hardware_inventory_frontend.git",
     },
     {
-      title: "Customer CRM",
-      subtitle: "REST API & Admin Dashboard",
-      year: "2024–25",
+      title: "MiniInventory Management system",
+      subtitle: "Hardware Inventory Management System",
+      year: "2026",
       blurb:
-        "A CRM backend to manage customer data, interactions and analytics, with REST APIs and a scalable architecture designed for real business use.",
-      tags: ["Spring Boot", "MySQL", "REST", "Postman"],
-      video: "",
+        "Use ASP.NET Core and Flutter to build a hardware inventory management system with a responsive UI, role-based access control, and RESTful APIs for efficient resource tracking.",
+      tags: ["ASP.NET", "Flutter", "MySQL", "REST", "Postman"],
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783808561/video_3_gahoj2.mp4",
       accent: ["#10B981", "#063D2C"],
-      live: "#",
+      live: "https://hardware-inventory-frontend-ten.vercel.app",
       code: "https://github.com/Nathashaperera",
     },
     {
@@ -166,7 +166,7 @@ export const DATA = {
     {
       role: "Freelance Developer",
       company: "Self-employed",
-      period: "2024 — Present",
+      period: "2025 — Present",
       points: [
         "Built Loan Ledger, a client mobile app for tracking loans, repayments and running balances.",
         "Delivered web projects for Governess College. [Edit: add the specifics — what you built + the tech.]",
