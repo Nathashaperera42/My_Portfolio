@@ -84,7 +84,7 @@ export const DATA = {
       blurb:
         "A responsive MERN app for managing university events, resources, attendance and user roles — built to improve operational efficiency and campus engagement.",
       tags: ["React", "Node.js", "Express", "MongoDB"],
-      video: "",
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783804665/Smart_Uni_System_localhost_5173_-_Smart-Uni-Front-End_-_Visual_Studio_Code_2026-07-12_02-43-41_pmi4dq.mp4",
       accent: ["#3B82F6", "#0B2A57"],
       live: "#",
       code: "https://github.com/Nathashaperera",
