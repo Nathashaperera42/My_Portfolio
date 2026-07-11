@@ -72,10 +72,10 @@ export const DATA = {
       blurb:
         "A full-stack platform connecting food outlets with customers through surplus-food listings to cut waste. Role-based access, location-based search, and a gamified “Spin” feature for surprise meals.",
       tags: ["React", "Node.js", "Spring Boot", "MongoDB", "REST"],
-      video: "", // 🎬 optional Cloudinary public_id
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783767970/video_m8iih6.mp4", 
       accent: ["#FF2E4D", "#7A0E20"],
       live: "#",
-      code: "https://github.com/Nathashaperera",
+      code: "https://github.com/Nathashaperera42/Waste2Taste.git",
     },
     {
       title: "Uni Management",
