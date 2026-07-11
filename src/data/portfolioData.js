@@ -146,8 +146,8 @@ export const DATA = {
     {
       title: "Design title",
       subtitle: "Mobile App UI",
-      image: "",
-      link: "https://www.figma.com/",
+      image: "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
+      link: "https://lnkd.in/gcvcd6WP",
       tags: ["Figma", "UI/UX"],
     },
   ],
