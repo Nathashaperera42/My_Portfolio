@@ -87,7 +87,7 @@ export const DATA = {
       video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783804665/Smart_Uni_System_localhost_5173_-_Smart-Uni-Front-End_-_Visual_Studio_Code_2026-07-12_02-43-41_pmi4dq.mp4",
       accent: ["#3B82F6", "#0B2A57"],
       live: "#",
-      code: "https://github.com/Nathashaperera",
+      code: "https://github.com/esoft-batch05",
     },
     {
       title: "Customer CRM",
@@ -132,10 +132,10 @@ export const DATA = {
       blurb:
         "A web portal for Governess College, designed to streamline administrative tasks and enhance communication between staff and students.",
       tags: ["Flutter", "Node.js", "MongoDB"],
-      video: "",
+      video: "https://res.cloudinary.com/dsypqpuci/video/upload/v1783808223/Governess_College_of_English_and_18_more_pages_-_Personal_-_Microsoft_Edge_2026-07-12_03-40-16_whfv06.mp4",
       accent: ["#8B5CF6", "#2E1065"],
       live: "https://cambridecollege.vercel.app",
-      code: "https://github.com/Nathashaperera",
+      code: "https://github.com/Nathashaperera42/cambride-college.git",
     },
   ],
 
