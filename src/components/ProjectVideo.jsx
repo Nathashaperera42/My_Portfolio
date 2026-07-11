@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { Play } from "lucide-react";
-import { cldVideo } from "../data/portfolioData.js";
 
 /**
  * Shows a muted, looping demo video for a project when `project.video`
@@ -37,7 +36,7 @@ export default function ProjectVideo({ project }) {
           preload="metadata"
           onError={() => setFailed(true)}
         >
-          <source src={cldVideo(project.video)} type="video/mp4" />
+          <source src={project.video} type="video/mp4" />
         </video>
       )}
       <div
