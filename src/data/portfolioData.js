@@ -150,6 +150,13 @@ export const DATA = {
       link: "https://lnkd.in/gcvcd6WP",
       tags: ["Figma", "UI/UX"],
     },
+     {
+      title: "HealthMate figma",
+      subtitle: "Mobile App UI",
+      image: "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
+      link: "https://lnkd.in/gcvcd6WP",
+      tags: ["Figma", "UI/UX"],
+    },
   ],
 
   experience: [
