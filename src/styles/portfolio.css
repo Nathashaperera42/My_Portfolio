@@ -224,11 +224,25 @@
 .pf-design-imgwrap{position:relative; aspect-ratio:4/3; background:#0e0e11; overflow:hidden;}
 .pf-design-imgwrap img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
 .pf-design-placeholder{position:absolute; inset:0; display:grid; place-items:center; color:var(--muted);}
-.pf-design-overlay{position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:flex-start;
+.pf-design-overlay{position:absolute; inset:0; z-index:1; display:flex; align-items:flex-end; justify-content:flex-start;
   gap:6px; padding:14px; font-family:var(--mono); font-size:12px; letter-spacing:1px; text-transform:uppercase;
   color:#fff; background:linear-gradient(0deg, rgba(0,0,0,.72), transparent 55%);
   opacity:0; transition:opacity .25s;}
 .pf-design:hover .pf-design-overlay{opacity:1;}
+
+.pf-design-arrow{position:absolute; top:50%; z-index:2; transform:translateY(-50%);
+  display:grid; place-items:center; width:30px; height:30px; border-radius:50%;
+  border:1px solid rgba(255,255,255,.25); background:rgba(10,10,12,.55); color:#fff;
+  opacity:0; transition:opacity .2s, background .2s; backdrop-filter:blur(2px);}
+.pf-design:hover .pf-design-arrow{opacity:1;}
+.pf-design-arrow:hover{background:rgba(10,10,12,.85);}
+.pf-design-arrow.prev{left:10px;}
+.pf-design-arrow.next{right:10px;}
+.pf-design-dots{position:absolute; left:0; right:0; bottom:10px; z-index:2;
+  display:flex; justify-content:center; gap:6px;}
+.pf-design-dot{width:6px; height:6px; border-radius:50%; border:none;
+  background:rgba(255,255,255,.4); transition:background .2s, transform .2s;}
+.pf-design-dot.active{background:#fff; transform:scale(1.25);}
 .pf-design-body{padding:18px 20px 22px;}
 .pf-design-body h3{font-size:16.5px; font-weight:700;}
 .pf-design-sub{display:block; color:var(--muted); font-size:13px; margin:4px 0 12px;}

@@ -139,22 +139,48 @@ export const DATA = {
     },
   ],
 
-  // 🎨 Figma / UI design work. Paste a screenshot/export URL for `image`
-  // (e.g. drag the frame out of Figma onto Cloudinary, or export a PNG and
-  // host it anywhere) and your Figma "Share" link for `link`.
+  // 🎨 Figma / UI design work. Paste one or more screenshot/export URLs into
+  // `images` (e.g. drag frames out of Figma onto Cloudinary, or export PNGs
+  // and host them anywhere) — multiple images become a slideshow on the card.
+  // Paste your Figma "Share" link for `link`.
   designs: [
     {
       title: "HealthMate figma",
       subtitle: "Mobile App UI",
-      image: "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
-      link: "https://lnkd.in/gcvcd6WP",
+      images: [
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841582/Screenshot_1214_wx3cs6.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841601/Screenshot_1300_vz9hi7.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841602/Screenshot_1302_abxba1.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841602/Screenshot_1301_ahpnrw.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841602/Screenshot_1303_hfuoap.png",
+        
+      ],
+      link: "https://www.figma.com/design/IuKXtR4nZ1ZIKObF545oxf/Untitled?node-id=0-1&p=f",
       tags: ["Figma", "UI/UX"],
     },
      {
-      title: "HealthMate figma",
+      title: "Weather Pro figma",
       subtitle: "Mobile App UI",
-      image: "https://res.cloudinary.com/dsypqpuci/image/upload/v1783806622/1779186273800_d2yjek.jpg",
-      link: "https://lnkd.in/gcvcd6WP",
+      images: [
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841564/Screenshot_1353_buhowr.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841564/Screenshot_1354_tlz6ge.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841564/Screenshot_1356_sij8kl.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841564/Screenshot_1357_dhxzlf.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783841564/Screenshot_1358_uq4vuy.png",
+      ],
+      link: "https://www.figma.com/design/J4dJgU1mGdh222vCqlTstN/weatherPro?t=dnB8nzJnZg0zen2K-1",
+      tags: ["Figma", "UI/UX"],
+    },
+    {
+      title: "Uni Management figma",
+      subtitle: "Mobile App UI",
+      images: [
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783842493/Screenshot_3124_qhxd9l.png",
+        "https://res.cloudinary.com/dsypqpuci/image/upload/v1783842494/Screenshot_3125_xef2j5.png",
+        
+      ],
+      link: "https://www.figma.com/design/PbnWjyb8BTSgxNEBgBYwYK/ESOFT---G5-PROTOTYPE?node-id=0-1&p=f&t=UwNyCtKLFwgqPKgh-0",
       tags: ["Figma", "UI/UX"],
     },
   ],
